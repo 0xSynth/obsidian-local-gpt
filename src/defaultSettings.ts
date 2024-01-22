@@ -4,12 +4,12 @@ export const DEFAULT_SETTINGS: LocalGPTSettings = {
 	providers: {
 		ollama: {
 			ollamaUrl: "http://localhost:11434",
-			defaultModel: "orca-mini",
+			defaultModel: "dolphin-mixtral",
 			type: "ollama",
 		},
 		ollama_fallback: {
 			ollamaUrl: "http://localhost:11434",
-			defaultModel: "orca-mini",
+			defaultModel: "dolphin-mixtral",
 			type: "ollama",
 		},
 		openaiCompatible: {
